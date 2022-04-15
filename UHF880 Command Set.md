@@ -50,8 +50,8 @@ RF385-00 commands is base on [GNetPlus Protocol](GNetPlus%20Protocol.md)
 |:-----------------------------------------:|:-----:| ------------------------------- |
 | [Get Version](#4-1-get-version-command)   | `10h` | Get Firmware / Hardware version |
 | [Set Working Mode](#4-2-set-working-mode) | `12h` | Set Working Mode                |
-| [Read EEPROM](#4-3-read-eeprom)           | 24h   | Read data from EEPROM           |
-| [Write EEPROM](#4-4-write-eeprom)         | 22h   | Write data to EEPROM            |
+| [Read EEPROM](#4-3-read-eeprom)           | `24h` | Read data from EEPROM           |
+| [Write EEPROM](#4-4-write-eeprom)         | `22h` | Write data to EEPROM            |
 
 ## 4-1\. Get Version Command
 
