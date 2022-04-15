@@ -66,7 +66,7 @@ Request Code is 10h
 | 0      | 1     | u8   | Index | Version Index<br>0: Firmware Version<br>1: Hardware Version |
 
 * Response
-  * NAK: Response an [error code](#4\.-error-code)
+  * NAK: Response an [error code](#5-error-code)
   * ACK: Success with response data
     * Response Data
 
@@ -124,7 +124,7 @@ Request Code is 12h
 | 0      | 1     | u8   | Mode | New [Working Mode](#working-mode)<br />0: Auto<br />1: Command |
 
 * Response
-  * NAK: Response an [error code](#4\.-error-code). 
+  * NAK: Response an [error code](#5-error-code). 
   * ACK: Success with response data
     * Response Data
 
@@ -219,7 +219,7 @@ Request Code is 24h
 | 1      | 1     | u8   | Length  | Number of bytes read from EEPROM                                                                                                                        |
 
 * Response
-  * NAK: Response an [error code](#4\.-error-code). 
+  * NAK: Response an [error code](#5-error-code). 
   * ACK: Success with response data
     * Response Data
 
@@ -308,7 +308,7 @@ Request Code is 22h
 | 1      | N     | u8   | Data    | Write data.                                                                                                                                                                                                                                                                                                                  |
 
 * Response
-  * NAK: Response an [error code](#4\.-error-code).
+  * NAK: Response an [error code](#5-error-code).
   * ACK: Success with response data
     * Response Data
 
@@ -396,7 +396,7 @@ Update EEPROM settings to device registers and EEPROM settings will take effect
 | 1      | 1     | u8   | Update Option | Update EEPROM to Reigsetrs option<br />0: Update All EEPROM to Registers<br />1: Update EEPROM without working Mode to Registers |
 
 * Response
-  * NAK: Response an [error code](#4\.-error-code).
+  * NAK: Response an [error code](#5-error-code).
   * ACK: Success
 
 #### Example
