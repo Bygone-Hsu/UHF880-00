@@ -34,7 +34,7 @@ Symbols to this command set are as follows
 
 ### Data Types
 
-The RF385-00 commands digital data order uses **Big Endian**
+The UHF880-00 commands digital data order uses **Big Endian**
 
 | Type | Bytes | Value Range     | Description              |
 | :--: | :---: | :-------------- | ------------------------ |
